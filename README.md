@@ -1,6 +1,6 @@
 # Yureka Project
-# 백준 문제 풀이
-# STUDY ARLGORISM 2024/12/29 ~ 
+## 백준 문제 풀이
+### STUDY ARLGORISM 2024/12/29 ~ 
 
 * SOOKMYUNG WOMEN'S UNIVERSITY YOO EUNSEO
 
