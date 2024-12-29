@@ -1,10 +1,12 @@
+import sys
+
 #입력 받을 개수 
 num = int(input())
 list_num = []
 
 #num개의 숫자를 입력 받고 리스트에 저장
-for _ in range(num):
-    list_num.append(int(input()))
+list_num = list(map(int, sys.stdin.read().split()))
+
 #오름차순으로 정렬
 list_num.sort()
 
