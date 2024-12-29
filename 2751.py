@@ -4,9 +4,7 @@ list_num = []
 
 #num개의 숫자를 입력 받고 리스트에 저장
 for _ in range(num):
-    s = int(input())
-    list_num.append(s)
-
+    list_num.append(int(input()))
 #오름차순으로 정렬
 list_num.sort()
 
