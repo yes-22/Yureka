@@ -1,6 +1,7 @@
 #몇 개의 문자열을 입력 받을 것인지 작성
 num = int(input())
-total =0
+total = 0
+
 #입력받은 문자열을 리스트에 저장
 for _ in range(num):
     s = input()
