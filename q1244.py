@@ -8,7 +8,7 @@ for i in range(studentNum):
     students.append(list(map(int,sys.stdin.readline().split())))
 for std in students:
     if std[0] == 1:
-        for i in range(len(a)):
+        for i in range(n):
             if (i+1)%std[1] == 0:
                 if a[i] == 0:
                     a[i] = 1
@@ -16,7 +16,7 @@ for std in students:
         #     print(a)
         # print("남자끝남",a)
     else:
-        for i in range(1, len(a)):
+        for i in range(1, n):
             idx = std[1]-1
             if idx-i >=0 and idx+i <= len(a)-1:
                 if a[idx-i] == a[idx+i]:
