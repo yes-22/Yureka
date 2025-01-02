@@ -4,7 +4,7 @@ cow = {}
 count = 0
 
 for i in range(N):
-    a, b =int(input().split())
+    a, b =map(int(input().split()))
     #해당 값이 없으면 딕셔너리에 추가
     if a not in cow:
         cow[a] = b
