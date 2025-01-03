@@ -1,9 +1,10 @@
-<<<<<<< HEAD
-
 ### Algorithm 2024/12/29 ~ 
 
 * SOOKMYUNG WOMEN'S UNIVERSITY
 * YOO EUNSEO
+
+* KUNKOOK UNIVERSITY
+* IM YURI
 
 =======
 # Yureka Project
