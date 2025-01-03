@@ -1,13 +1,14 @@
 #10989.py
 import sys
+input = sys.stdin.read
 
+n = int(input().splitlines()[0])
+num_list = [0] * 10001 
 
-n = int(input())
-num_list = [0 for i in range(10001)]
-
-for i in range(n):
-    num_list[n] += 1
+data = input().splitlines()[1:] 
+for num in data:
+    num_list[int(num)] += 1 
     
-for i in range(len(num_list)):
-    for j in range(num_list[i]):
-        print(i)
+for i in range(10001):
+    if num_list[i] > 0:
+        sys.stdout.write(f"{i}\n" * num_list[i]) 
