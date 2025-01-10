@@ -4,7 +4,7 @@
 
 * SOOKMYUNG WOMEN'S UNIVERSITY YOO EUNSEO
 * KONKUK UNIVERSITY IM YURI
->>>>>>> bc91f7aeb0aee73ba47f084a3ff698a44c1d894a
+
 
 - **Languages** : Python, Java
 - **IDE/Environment**: Visual Studio Code
