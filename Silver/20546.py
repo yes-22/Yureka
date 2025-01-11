@@ -1,7 +1,9 @@
 #20546
+#돈을 입력 받고 몇 개를 살 수 있는지 계속 나누어야함 
 money = int(input())
 stocks = list(map(int,input().split()))
 
+#준현 개미 생성
 
 def jun():
     left_money = money
@@ -13,6 +15,9 @@ def jun():
             break
 
     return left_money, stock_n
+
+
+#성민 개미 생성
 
 def sung():
     left_money = money
@@ -32,6 +37,9 @@ jun_money, jun_stock = jun()
 total_jun_money = jun_money + jun_stock * stocks[-1]
 sung_money, sung_stock = sung()
 total_sung_money = sung_money + sung_stock * stocks[-1]
+
+
+#if문을 통해 print 결정
 
 if total_jun_money < total_sung_money:
     print('TIMING')
